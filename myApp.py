@@ -1,5 +1,5 @@
 import turtle
-import racket1, racket2, ball
+import racket1, racket2, ball, utils
 
 
 myScreen = turtle.Screen()
@@ -16,6 +16,11 @@ racket2
 
 #ball
 ball
+
+#keyboard bindings
+myScreen.listen()
+myScreen.onkeypress(utils.racket1_up,"w")
+myScreen.onkeypress(utils.racket1_down,"s")
 
 #main game loop
 while True:
