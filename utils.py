@@ -29,3 +29,12 @@ def move_ball():
     if ball.bl.ycor()>290:
         ball.bl.sety(290)
         ball.bl.dy *= -1
+    elif ball.bl.ycor()<-290:
+        ball.bl.sety(-290)
+        ball.bl.dy *= -1
+    elif ball.bl.xcor()>390:
+        ball.bl.goto(0,0)
+        ball.bl.dx *= -1
+    elif ball.bl.xcor()<-390:
+        ball.bl.goto(0,0)
+        ball.bl.dx *= -1
