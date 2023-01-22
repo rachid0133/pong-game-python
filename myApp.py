@@ -21,6 +21,8 @@ ball
 myScreen.listen()
 myScreen.onkeypress(utils.racket1_up,"w")
 myScreen.onkeypress(utils.racket1_down,"s")
+myScreen.onkeypress(utils.racket2_up,"Up")
+myScreen.onkeypress(utils.racket2_down,"Down")
 
 #main game loop
 while True:
