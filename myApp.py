@@ -5,7 +5,7 @@ import racket1, racket2, ball, utils
 myScreen = turtle.Screen()
 myScreen.title("Ping Pong by Rachid")
 myScreen.bgcolor("black")
-myScreen.setup(width=800, height=800)
+myScreen.setup(width=800, height=600)
 myScreen.tracer(0)
 
 #racket1
@@ -27,3 +27,6 @@ myScreen.onkeypress(utils.racket2_down,"Down")
 #main game loop
 while True:
     myScreen.update()
+
+    #move the ball
+    utils.move_ball()
