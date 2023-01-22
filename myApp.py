@@ -1,5 +1,5 @@
 import turtle
-import racket1, racket2
+import racket1, racket2, ball
 
 
 myScreen = turtle.Screen()
@@ -13,6 +13,9 @@ racket1
 
 #racket2
 racket2
+
+#ball
+ball
 
 #main game loop
 while True:
