@@ -38,3 +38,11 @@ def move_ball():
     elif ball.bl.xcor()<-390:
         ball.bl.goto(0,0)
         ball.bl.dx *= -1
+
+def ball_touch_racket():
+    if (ball.bl.xcor()>340 and ball.bl.xcor()<350) and (ball.bl.ycor() < racket2.racket2.ycor()+40 and ball.bl.ycor() > racket2.racket2.ycor()-40):
+        ball.bl.setx(340)
+        ball.bl.dx *= -1
+    elif (ball.bl.xcor()<-340 and ball.bl.xcor()>-350) and (ball.bl.ycor() < racket1.racket1.ycor()+40 and ball.bl.ycor() > racket1.racket1.ycor()-40):
+        ball.bl.setx(-340)
+        ball.bl.dx *= -1

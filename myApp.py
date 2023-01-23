@@ -30,3 +30,6 @@ while True:
 
     #move the ball
     utils.move_ball()
+
+    #ball touch racket
+    utils.ball_touch_racket()
