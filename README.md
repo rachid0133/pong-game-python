@@ -4,4 +4,4 @@ developed the game pong, by writing code in python using the turtle module
 
 Press 'w' on the keyboard to move the green racket up, and 's' to move it down.
 
-Press 'arrow Up' on the keyboard to move the yellow racket up, and 'arrow Down' to move it down.
+Press 'Up arrow' on the keyboard to move the yellow racket up, and 'Down arrow' to move it down.
