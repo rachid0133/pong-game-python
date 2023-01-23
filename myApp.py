@@ -1,5 +1,5 @@
 import turtle
-import racket1, racket2, ball, utils
+import racket1, racket2, ball, utils, score
 
 
 myScreen = turtle.Screen()
@@ -23,6 +23,10 @@ myScreen.onkeypress(utils.racket1_up,"w")
 myScreen.onkeypress(utils.racket1_down,"s")
 myScreen.onkeypress(utils.racket2_up,"Up")
 myScreen.onkeypress(utils.racket2_down,"Down")
+
+#score
+score
+score.score_increment(score.sc1, score.sc2)
 
 #main game loop
 while True:
